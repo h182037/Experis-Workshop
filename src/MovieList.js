@@ -59,7 +59,9 @@ class MovieList extends Component {
                             <th><Filter placeholder="Filter by description" filterKey="description" value={filters.description} onChange={this.handleFilters} /></th>
                             <th><Filter placeholder="Filter by director" filterKey="director" value={filters.director} onChange={this.handleFilters} /></th>
                             <th><Filter placeholder="Filter by producer" filterKey="producer" value={filters.producer} onChange={this.handleFilters} /></th>
-                            <th /><th />
+                            <th><Filter placeholder="Filter by year" filterKey="release_date" value={filters.release_date} onChange={this.handleFilters} /></th>
+                            <th><Filter placeholder="Filter by score" filterKey="rt_score" value={filters.rt_score} onChange={this.handleFilters} /></th>
+
                         </tr>
                     </thead>
                     <tbody>
