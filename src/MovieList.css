@@ -1,5 +1,5 @@
 .wrapper {
-    background: #E68A3E;
+    background: lightslategrey;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,11 +28,11 @@
   }
   
   tbody > tr:nth-child(odd) {
-    background: #F9F778;
+    background: lightgray;
   }
   
   tbody > tr:nth-child(even) {
-    background: #8EC0E8;
+    background: whitesmoke;
   }
   
   h1 {
